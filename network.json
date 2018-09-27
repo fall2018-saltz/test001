@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script2825.R"
         }
     ],
     "nodes": [
@@ -40,6 +50,6 @@
             "name": "script2825.R"
         }
     ],
-    "updated_at": "2018-09-27 15:29:30",
+    "updated_at": "2018-09-27 15:30:35",
     "url": "https://github.com/fall2018-saltz/test001"
 }
