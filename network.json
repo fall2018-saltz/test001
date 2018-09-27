@@ -33,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "script2825.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "his",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "script2825.R",
+            "target": "his.R"
         }
     ],
     "nodes": [
@@ -54,6 +64,6 @@
             "name": "his.R"
         }
     ],
-    "updated_at": "2018-09-27 15:39:42",
+    "updated_at": "2018-09-27 15:40:04",
     "url": "https://github.com/fall2018-saltz/test001"
 }
